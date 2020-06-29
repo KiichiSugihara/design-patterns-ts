@@ -1,0 +1,19 @@
+{
+  "name": "design-patterns-ts",
+  "version": "1.0.0",
+  "description": "Design Patterns with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KiichiSugihara/design-patterns-ts.git"
+  },
+  "author": "Kiichi Sugihara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KiichiSugihara/design-patterns-ts/issues"
+  },
+  "homepage": "https://github.com/KiichiSugihara/design-patterns-ts#readme"
+}
