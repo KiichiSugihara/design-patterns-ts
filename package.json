@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/KiichiSugihara/design-patterns-ts/issues"
   },
-  "homepage": "https://github.com/KiichiSugihara/design-patterns-ts#readme"
+  "homepage": "https://github.com/KiichiSugihara/design-patterns-ts#readme",
+  "dependencies": {
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
 }
