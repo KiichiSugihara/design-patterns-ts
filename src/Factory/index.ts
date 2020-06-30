@@ -1,21 +1,20 @@
-import Product from "./Product";
-const productList = [
-  new Product({
-    productCode: "0001",
-    title: "Just for Fun",
-    author: "Linus Torvalds",
-    unitPrice: 1500,
-  }),
-  new Product({
-    productCode: "0002",
-    title: "Nineteen Eighty-Four",
-    author: "George Orwell",
-    unitPrice: 1000,
-  }),
-];
+import Book from "./Book";
+import Drink from "./Drink";
 
-productList.forEach((p) => {
-  console.log(p.getTaxIncludedPrice());
-});
-// 1650
-// 1100
+const bookSample = new Book(
+  {
+    productCode: "2001",
+    unitPrice: 498,
+  },
+  { title: "坊っちゃん", author: "夏目漱石" }
+);
+const drinkSample = new Drink(
+  {
+    productCode: "1001",
+    unitPrice: 298,
+  },
+  { name: "お酒", isAlcohol: false }
+);
+
+console.log(bookSample);
+console.log(drinkSample);
