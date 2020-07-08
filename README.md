@@ -12,5 +12,5 @@ npm install -g ts-node
 ## run
 
 ```bash
-yarn ts-node src/
+yarn ts-node src/*
 ```
