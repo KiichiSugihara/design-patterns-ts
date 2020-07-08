@@ -4,7 +4,8 @@
   "description": "Design Patterns with TypeScript",
   "main": "index.js",
   "scripts": {
-    "compile":"yarn ts-node src/*"
+    "compile": "yarn ts-node src/*",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -22,11 +23,16 @@
     "typescript": "^3.9.5"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.4",
     "@typescript-eslint/eslint-plugin": "^3.4.0",
     "@typescript-eslint/parser": "^3.4.0",
     "eslint": "^7.3.1",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.0.5"
+    "jest": "^26.1.0",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.1.1"
+  },"jest":{
+    "setupFiles": ["./jest.setup.js"]
   }
 }
