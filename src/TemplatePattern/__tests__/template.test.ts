@@ -1,5 +1,5 @@
-import Book from "../TemplatePattern/Book";
-import Drink from "../TemplatePattern/Drink";
+import Book from "../Book";
+import Drink from "../Drink";
 
 const bookSample = new Book(
   {
